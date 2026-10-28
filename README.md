@@ -1,4 +1,34 @@
 # InkQuest
+This is an interactive text adventure game device using an ESP32, an e-paper display and a rotary encoder. It is powered by Gemini to generate infinite stories and choices. 
+
+[![Watch the video](images/hero_image.jpg)](https://vimeo.com/1239192938)
+↑ click to watch demo!
+
+[![Top view](images/top_view.jpg)](https://vimeo.com/1239193952)
+↑ click to watch walkthrough!
+
+## Background
+After I had been working with e-paper displays for a while, I noticed most e-paper projects are just a static display that updates once in a while, like a weather station or calendar tracker despite their sleek beauty and low power capability. Inspired by e-readers, I thought: why not make something interactive, something fun, and something handheld?
+
+That is the reason behind InkQuest. You not only can read, but you also get to immerse yourself in the story. This way, we bring the classic choose-your-own-adventure into a modern handheld gaming console.
+
+## Design
+This is an interactive text adventure (choose-your-own-adventure) e-paper game with:
+
+* 2.9" E-Paper Display (zero eye strain!)
+* Tactile, clicky rotary encoder and RGB LED matching the story atmosphere
+* Handheld slim design (just 1.6cm!)
+* 1,200mAh battery (~20 hours of use, based on estimation)
+* and a sleek design!
+
+
+In a nutshell, this is how the game flow works:
+1. You turn or push the rotary knob to navigate the controls and choose story choices.
+2. The ESP32 checks the history buffer (last 5 turns) and make a new JSON payload.
+3. The buffer and your choice are sent to Gemini API to process the prompt. Then it returns the new story segment and 4 choices.
+4. The ESP32 parse the JSON response and saves the story to the buffer.
+5. The e-paper display updates the story text and 4 choices, and the NeoPixel LED changes colour to match the atmosphere.
+6. After 2 minutes of inactivity, the ESP32 falls into deep sleep; simply pressing the rotary encoder would wake it up.
 
 ## Repository Structure
 * `cad/`: CAD assembly and 3D print file.
