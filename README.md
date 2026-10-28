@@ -21,7 +21,6 @@ This is an interactive text adventure (choose-your-own-adventure) e-paper game w
 * 1,200mAh battery (~20 hours of use, based on estimation)
 * and a sleek design!
 
-
 In a nutshell, this is how the game flow works:
 1. You turn or push the rotary knob to navigate the controls and choose story choices.
 2. The ESP32 checks the history buffer (last 5 turns) and make a new JSON payload.
@@ -52,3 +51,11 @@ In a nutshell, this is how the game flow works:
 | 0805 Resistor | 10K | 3 | [AliExpress](https://s.click.aliexpress.com/e/_c4bDhEHP) |
 | 0805 Ceramic Capacitor | 470nF | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c2xbXOcz) |
 | 0805 Ceramic Capacitor | 100uF | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c2xbXOcz) |
+
+## CAD Design
+![Front Image](images/inkquest_cad_assembly_render_front.png)
+![Back Image](images/inkquest_cad_assembly_render_back.png)
+Designed in Autodesk Fusion
+
+## License
+This project is licensed under the GNU General Public License v2.0. See the [LICENSE](LICENSE) file for details.
