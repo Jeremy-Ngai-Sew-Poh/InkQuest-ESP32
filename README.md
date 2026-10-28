@@ -57,5 +57,10 @@ In a nutshell, this is how the game flow works:
 ![Back Image](images/inkquest_cad_assembly_render_back.png)
 Designed in Autodesk Fusion
 
+## PCB Schematics
+![Schematics Image](images/inkquest_schematics.png)
+![PCB Image](images/inkquest_pcb_image.jpg)
+Designed in EasyEDA
+
 ## License
 This project is licensed under the GNU General Public License v2.0. See the [LICENSE](LICENSE) file for details.
