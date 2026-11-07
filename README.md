@@ -39,18 +39,18 @@ In a nutshell, this is how the game flow works:
 
 | Component | Variation | Quantity | Link |
 | -------- | -------- | -------- | -------- |
-| XIAO ESP32-C3 | - | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c3eOCW2h) |
-| WeAct 2.9inch E-Paper Display | 2.9 inch | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c4pj5khn) |
-| 603450 Li-Po Battery | - | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c3nU6hTJ) |
-| JST-PH Connector | 2P | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c3N3rmhr) |
-| Rotary Encoder EC11 | 20mm D shaft | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c4pAwN4D) |
-| WS2812B NeoPixel LED 5050 | - | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c4lxeFXX) |
-| PH3.5 Low Profile Pin Connector | 2x4 Male, 2x4 Female | 2 | [AliExpress](https://s.click.aliexpress.com/e/_c2u2lpcp) |
-| 0805 Resistor | 1M | 2 | [AliExpress](https://s.click.aliexpress.com/e/_c4bDhEHP) |
-| 0805 Resistor | 330 | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c4bDhEHP) |
-| 0805 Resistor | 10K | 3 | [AliExpress](https://s.click.aliexpress.com/e/_c4bDhEHP) |
-| 0805 Ceramic Capacitor | 470nF | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c2xbXOcz) |
-| 0805 Ceramic Capacitor | 100uF | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c2xbXOcz) |
+| XIAO ESP32-C3 | - | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c3WZulx7) |
+| WeAct 2.9inch E-Paper Display | 2.9 inch | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c3S1lFs5) |
+| 603450 Li-Po Battery | - | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c4Fqa0KN) |
+| JST-PH Connector | 2P | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c3O6BO8p) |
+| Rotary Encoder EC11 | 20mm D shaft | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c4tUkbrx) |
+| WS2812B NeoPixel LED 5050 | - | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c3uFEcBJ) |
+| PH3.5 Low Profile Pin Connector | 2x4 Male, 2x4 Female | 2 | [AliExpress](https://s.click.aliexpress.com/e/_c3FiCiEV) |
+| 0805 Resistor | 1M | 2 | [AliExpress](https://s.click.aliexpress.com/e/_c3coTfZX) |
+| 0805 Resistor | 330 | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c3coTfZX) |
+| 0805 Resistor | 10K | 3 | [AliExpress](https://s.click.aliexpress.com/e/_c3coTfZX) |
+| 0805 Ceramic Capacitor | 470nF | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c2I933x7) |
+| 0805 Ceramic Capacitor | 100uF | 1 | [AliExpress](https://s.click.aliexpress.com/e/_c2I933x7) |
 
 ## CAD Design
 ![Front Image](images/inkquest_cad_assembly_render_front.png)
